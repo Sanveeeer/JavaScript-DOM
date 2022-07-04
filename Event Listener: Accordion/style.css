@@ -1,0 +1,46 @@
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: solid;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  .accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796";
+  }
+
+  h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+  }

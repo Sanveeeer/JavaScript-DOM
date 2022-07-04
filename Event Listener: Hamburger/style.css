@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+  }
+
+body {
+    background-color: aliceblue;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: rgb(247, 117, 117);
+    position: relative;
+  }
+  
+  
+  .nav #navLinks {
+    display: none;
+  }
+
+  #navLinks {
+    text-align: center;
+
+  }
+  
+
+  .nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .nav a.icon {
+    background: rgb(228, 31, 31);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+
+  .nav a:hover {
+    background-color: rgb(252, 109, 0);
+    color: black;
+  }
+  
+
+  .active {
+    background-color: #ffac4e;
+    color: white;
+    text-align: left;
+  }
